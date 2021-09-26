@@ -1,19 +1,21 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "companyName": "LeadSoft Bangladesh Limited",
         "img": "https://media-exp1.licdn.com/dms/image/C4D03AQHimEzodKeIkA/profile-displayphoto-shrink_400_400/0/1516529557884?e=1638403200&v=beta&t=xwtDcEqD1ILFNacRWt6uN9bu4QOQCoTdN4amPuy7-2E",
         "ceoName": "Shaikh Wahid",
         "salary": 150000,
-        "address": " Rupayan Trade Center, 17th Floor, 114 Kazi Nazrul Islam Ave, Dhaka 1000"
+        "address": " Rupayan Trade Center, 17th Floor, 114 Kazi Nazrul Islam Ave, Dhaka 1000",
+        "person": 1
     },
     {
-        "id": "2",
+        "id": 2,
         "companyName": "Nano IT World",
         "img": "https://media-exp1.licdn.com/dms/image/C5603AQGG8oiZawPLfQ/profile-displayphoto-shrink_400_400/0/1548837426134?e=1638403200&v=beta&t=dw8eQOaHirvHFn4_pJZ6B7YBSp4Y-sfczK0rs1z21FU",
         "ceoName": "Mamun Hossain Anik",
         "salary": 120000,
-        "address": " Rowshan Tower 152/2, A-2, 8th Floor Left. Green Road Panthapath(Signal, Dhaka 1205"
+        "address": " Rowshan Tower 152/2, A-2, 8th Floor Left. Green Road Panthapath(Signal, Dhaka 1205",
+        "person": 1
     },
     {
         "id": "3",
@@ -21,7 +23,8 @@
         "img": "https://media-exp1.licdn.com/dms/image/C5603AQFbq-IQ32WGWQ/profile-displayphoto-shrink_400_400/0/1585983832933?e=1638403200&v=beta&t=nBdBauqpkJeWVHX82h6xVRG_Xbngo3EfHzt-EOCTM4w",
         "ceoName": "Farid Sikder",
         "salary": 130000,
-        "address": "Block-K, House#21 Rd No.28, Dhaka 1213"
+        "address": "Block-K, House#21 Rd No.28, Dhaka 1213",
+        "person": 1
     },
     {
         "id": "4",
@@ -29,7 +32,8 @@
         "img": "https://media-exp1.licdn.com/dms/image/C4D03AQHjyubHv3NgEg/profile-displayphoto-shrink_400_400/0/1592233298368?e=1638403200&v=beta&t=TsiYodrZVKY5XxMobDaeBBv2uYbI2xrukijIkT5GAaA",
         "ceoName": "Wahid Choudhury",
         "salary": 110000,
-        "address": " 35/5 Shantinagar Bazar Rd, Dhaka 1217"
+        "address": " 35/5 Shantinagar Bazar Rd, Dhaka 1217",
+        "person": 1
     },
     {
         "id": "5",
@@ -37,7 +41,8 @@
         "img": "https://media-exp1.licdn.com/dms/image/C5103AQFfmJWZ-BEKgw/profile-displayphoto-shrink_400_400/0/1546070850209?e=1638403200&v=beta&t=fMhd6KRP-pJ54EVJgN9IOzzGkODMbh5wieKyTsfTvR4",
         "ceoName": "Biplob chandra",
         "salary": 115000,
-        "address": " 238/1 Outer Circular Road Maruf Market, 3rd Floor, Mouchak Market Circle, Dhaka 1217"
+        "address": " 238/1 Outer Circular Road Maruf Market, 3rd Floor, Mouchak Market Circle, Dhaka 1217",
+        "person": 1
     },
     {
         "id": "6",
@@ -45,7 +50,8 @@
         "img": "https://media-exp1.licdn.com/dms/image/C5603AQFmvvAUL9q_FQ/profile-displayphoto-shrink_400_400/0/1516275434744?e=1638403200&v=beta&t=ahh321NIj9ItTomR9CquPr57Lypc0s2meWUG0Q5UOYI",
         "ceoName": "Raisul Kabir",
         "salary": 132000,
-        "address": " 8th floor, Plot-02, Amtoli, Bir Uttam Ak Khandaker Rd, Dhaka 1212"
+        "address": " 8th floor, Plot-02, Amtoli, Bir Uttam Ak Khandaker Rd, Dhaka 1212",
+        "person": 1
     },
     {
         "id": "7",
@@ -53,6 +59,16 @@
         "img": "https://media-exp1.licdn.com/dms/image/C5603AQFU0pONejIxuQ/profile-displayphoto-shrink_400_400/0/1516859564594?e=1638403200&v=beta&t=R0PZmqE45HW9Gj05uyAK2YidCUZ_Toot88tdJWD6tgo",
         "ceoName": "Sayed Md. Mosarf Hossain",
         "salary": 125000,
-        "address": "Dhaka 1216"
+        "address": "Dhaka 1216",
+        "person": 1
+    },
+    {
+        "id": 8,
+        "companyName": "Cefalo Bangladesh Ltd.",
+        "img": "https://media-exp1.licdn.com/dms/image/C4E03AQEcMYmYFT4HxQ/profile-displayphoto-shrink_400_400/0/1517677853533?e=1638403200&v=beta&t=eHhfJiI1AAMAOmIn_h8jx3Vmuf711E0KvQyhWobgbu8",
+        "ceoName": "Ferdous Mahmud Shaon",
+        "salary": 100000,
+        "address": "House no: 12 Road no: 12, Dhaka 1209",
+        "person": 1
     }
 ]

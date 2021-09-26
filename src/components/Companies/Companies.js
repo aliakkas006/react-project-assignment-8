@@ -1,10 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import Company from '../Company/Company';
+import Salary from '../Salary/Salary';
 
 const Companies = () => {
 
-    // Load data
+    // Load data state set
     const [companies, setCompanies] = useState([]);
+
+    // Salary calculation
+    const [salaries, setSalaries] = useState([]);
+    // console.log(salaries);
+
+    const handleAddToSalary = company => {
+        // console.log(company);
+        const newSalaries = [...salaries, company];
+        setSalaries(newSalaries);
+        // console.log(newSalaries);
+    }
 
     useEffect(() => {
         fetch('companyInfo.json')
@@ -14,25 +26,26 @@ const Companies = () => {
 
     return (
         <div>
-            <div className="row">
+            <div className="row ms-5">
 
-                <div className="col-md-9">
+                <div className="col-md-9 ">
                     {/* Companies load on UI */}
                     <div className="row">
                         {
                             companies.map(company => <Company
-                                key={company.key}
+                                key={company.id}
                                 company={company}
+                                addSalary={handleAddToSalary}
                             />)
                         }
                     </div>
                 </div>
 
                 <div className="col-md-3">
-                    {/* Cart calculation */}
-                    {/* <Cart
-                        cart={cart}
-                    /> */}
+                    {/* Salary calculation */}
+                    <Salary
+                        salaries={salaries}
+                    />
 
                 </div>
 

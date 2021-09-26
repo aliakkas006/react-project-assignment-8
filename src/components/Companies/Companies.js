@@ -9,13 +9,10 @@ const Companies = () => {
 
     // Salary calculation
     const [salaries, setSalaries] = useState([]);
-    // console.log(salaries);
 
     const handleAddToSalary = company => {
-        // console.log(company);
         const newSalaries = [...salaries, company];
         setSalaries(newSalaries);
-        // console.log(newSalaries);
     }
 
     useEffect(() => {

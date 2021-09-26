@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Company = props => {
-    // console.log(props.company);
+
     const { companyName, ceoName, img, salary, address } = props.company;
-    // console.log(companyName);
+    
     return (
         <div className="col-md-6">
             <div className="card mb-3 bg-secondary bg-gradient shadow-lg" style={{ maxWidth: '500px', }}>

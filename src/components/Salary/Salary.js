@@ -2,10 +2,9 @@ import React from 'react';
 import SalaryData from '../SalaryData/SalaryData';
 
 const Salary = props => {
-    // console.log(props.salary);
+    
     const { salaries } = props;
-    // console.log(salaries);
-    // Calculation total salary
+
     const totalSalary = salaries.reduce((previousValue, currentValue) => previousValue + currentValue.salary, 0);
 
     // Total person calculation

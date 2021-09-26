@@ -20,8 +20,8 @@ const Salary = props => {
                         company={company}
                     />)
                 }
-            <h4><i class="fas fa-user-friends text-info"></i> {totalPerson} </h4>
-                <h4>Total salary: {totalSalary} BDT.</h4>           
+            <h4 className="text-light"><i class="fas fa-user-friends text-info"></i> {totalPerson} </h4>
+                <h4 className="text-light">Total salary: {totalSalary} BDT.</h4>           
 
         </div>
     );

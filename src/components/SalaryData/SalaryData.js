@@ -4,8 +4,8 @@ const SalaryData = props => {
     const { ceoName, salary } = props.company;
     return (
         <ul>
-            <li> {ceoName} </li>
-            <p>__ Salary: {salary} BDT.</p>
+            <li className="text-light"> {ceoName} </li>
+            <p className="text-light">__ Salary: {salary} BDT.</p>
         </ul>
     );
 };

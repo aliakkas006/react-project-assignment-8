@@ -27,7 +27,7 @@ const Companies = () => {
 
                 <div className="col-md-9 ">
                     {/* Companies load on UI */}
-                    <div className="row">
+                    <div className="row gy-5">
                         {
                             companies.map(company => <Company
                                 key={company.id}

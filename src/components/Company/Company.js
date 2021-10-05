@@ -6,7 +6,7 @@ const Company = props => {
     
     return (
         <div className="col-md-6">
-            <div className="card mb-3 bg-secondary bg-gradient shadow-lg" style={{ maxWidth: '500px', }}>
+            <div className="card h-100 bg-secondary bg-gradient shadow-lg" style={{ maxWidth: '500px', }}>
                 <div className="row g-0">
                     <div className="col-md-5">
                         <img src={img} className="img-fluid rounded-circle" alt="ceo-img" />
